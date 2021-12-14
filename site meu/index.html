@@ -10,24 +10,39 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(255, 232, 205);">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="../site meu/index.html"><img id="logo" src="imagens/image-removebg-preview.png" height="150"></a>
 
-    <header>
-        <h1>Meu Site</h1>
-        <div class="btn-group" role="group" aria-label="Grupo de botões com dropdown aninhado">
-            <button type="button" class="btn btn-secondary">1</button>
-            <button type="button" class="btn btn-secondary">2</button>
-
-            <div class="btn-group" role="group">
-                <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </button>
-                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                    <a class="dropdown-item" href="#">Link dropdown</a>
-                    <a class="dropdown-item" href="#">Link dropdown</a>
-                </div>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      EQUIPE
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Ação</a>
+                        <a class="dropdown-item" href="#">Outra ação</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><button class="btn btn-sm btn-outline-secondary" type="button">Botão menor</button></a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
         </div>
-    </header>
+    </nav>
+
 
 
     <main>
@@ -39,7 +54,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="imagens/1.jpg" alt="Primeiro Slide">
+                    <img class="d-block w-100" src="imagens/mspo_19032021.png" alt="Primeiro Slide">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Lucas Rabelo é campeão da STU street</h5>
                     </div>

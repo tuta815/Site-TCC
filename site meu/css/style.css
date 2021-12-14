@@ -1,12 +1,23 @@
-header {
-    background-color: rgba(0, 0, 0, 0.657);
-    text-align: center;
-}
-
 h5 {
     color: black;
 }
 
 h1 {
     text-align: left;
+}
+
+.row {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-next-icon {
+    background-image: url(../imagens/seta.png);
+    height: 5em;
+    width: 5em;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../imagens/setaesquerda.png);
+    height: 5em;
+    width: 5em;
 }
