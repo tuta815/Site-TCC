@@ -2,3 +2,11 @@ header {
     background-color: rgba(0, 0, 0, 0.657);
     text-align: center;
 }
+
+h5 {
+    color: black;
+}
+
+h1 {
+    text-align: left;
+}
