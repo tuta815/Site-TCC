@@ -1,0 +1,56 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.item {
+    background: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    padding: 20px;
+    border-radius: 4px;
+    display: grid;
+}
+
+button {
+    background-color: black;
+    color: blanchedalmond;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.comprar {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.imagem {
+    text-align: center;
+}
+
+.bg {
+    transition: 2s;
+}
+
+.preço {
+    text-align: center;
+    font-size: 2em;
+}
