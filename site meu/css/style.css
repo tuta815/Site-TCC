@@ -21,3 +21,20 @@ h1 {
     height: 5em;
     width: 5em;
 }
+
+.btn.btn-sm.btn-outline-secondary:hover {
+    color: #6c757d;
+    background-color: transparent;
+    background-image: none;
+    border-color: #6c757d;
+}
+
+.btn.btn-sm.btn-outline-secondary {
+    color: rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    background-image: none;
+    border-color: #6c757d;
+    font-size: 1rem;
+    position: fixed;
+    top: 4.5em;
+}
