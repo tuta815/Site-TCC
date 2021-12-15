@@ -35,6 +35,6 @@ h1 {
     background-image: none;
     border-color: #6c757d;
     font-size: 1rem;
-    position: fixed;
-    top: 4.5em;
+    position: relative;
+    top: -0.25em;
 }
