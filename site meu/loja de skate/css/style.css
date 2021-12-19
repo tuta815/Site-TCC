@@ -89,6 +89,7 @@ a:hover {
     background-color: #dddddd;
     border: 1px solid rgba(0, 0, 0, 0.6);
     border-radius: 5px;
+    font-size: small;
 }
 
 .navbar.navbar-expand-lg.navbar-light {
