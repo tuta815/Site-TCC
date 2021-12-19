@@ -38,3 +38,30 @@ main {
 h2 {
     text-align: center;
 }
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.infos-rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #dddddd;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+}
+
+.navbar.navbar-expand-lg.navbar-light {
+    border-bottom: 2px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: black;
+}
